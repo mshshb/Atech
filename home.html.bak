@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/myCss/header.css"/>
+    <link rel="stylesheet" href="css/myCss/home.css"/>
+    <link rel="stylesheet" href="css/myCss/footer.css"/>
+    <title>home</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<header id="headerc"></header>
+    <section id="content">
+        <div class="content-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3 style="color:#85D6DE">High Professional Staff &</h3>
+                        <h1>Best Engineers Ever</h1>
+                        <a class="btn">Join Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-two">
+            <div class="container-fluid">
+                <div id="carousel-tips" class="carousel row">
+                    <div class="carousel-inner col-sm-8">
+                        <div class="item">
+                            <div class="item-content" style="background:rgb(254,142,139);">
+                                Suites any needs great pixel perfect template which . Some subheader text goes here.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-content" style="background:rgb(254,210,126);">
+                                Template which suites great pixel perfect any needs. Some subheader text goes here.
+                            </div>
+                        </div>
+                        <div class="item active">
+                            <div class="item-content" style="background:rgb(132,213,221);">
+                                Great pixel perfect template which suites any needs. Some subheader text goes here.
+                            </div>
+                        </div>
+                    </div>
+                    <a class="left carousel-control col-sm-2" href="#carousel-tips" data-slide="prev"><span></span></a>
+                    <a class="right carousel-control col-sm-2" href="#carousel-tips" data-slide="next"><span></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="content-three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-4">
+                        <div class="img"></div>
+                        <h4>Atech showcase</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam.
+                            Fusce quis nulla tincidunt. Nunc eu sodales turpis, varius viverra mauris
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-4">
+                        <div class="img"></div>
+                        <h4>Compatible with any device</h4>
+                        <p>
+                            Aenean porta, elit vitae tristique consequat, nisi tellus tincidunt erat, sit amet interdum
+                            elit quam at velit. Mauris venenatis metus sed purus tincidunt placerat.
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-4">
+                        <div class="img"></div>
+                        <h4>Quick implementation</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in lacinia quam.
+                            Fusce quis nulla tincidunt, interdum magna vitae, viverra est.
+                        </p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3>ATECH IS MADE WITH LOVE TO SERVE YOU</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h4>A Lot of Features You May Love</h4>
+                            <p>
+                                Aenean et interdum dolor, at porta tellus. Donec suscipit sodales ante id bibendum.
+                                Proin at libero mi. Morbi in enim laoreet, luctus urna non, egestas arcu. Fusce sodales
+                                vitae augue et malesuada. Cras et nibh in eros auctor faucibus. In eleifend vel leo id
+                                tristique. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                                cubilia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in
+                                lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra est. Nunc eu
+                                sodales turpis, varius viverra mauris.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <h4>Atech to Infinity and Beyond</h4>
+                            <p>
+                                In eleifend vel leo id tristique. Vestibulum ante ipsum primis in faucibus orci luctus
+                                et ultrices posuere cubilia. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Pellentesque in lacinia quam. Fusce quis nulla tincidunt, interdum magna vitae, viverra
+                                est. Nunc eu sodales turpis, varius viverra mauris.
+                            </p>
+                            <p>
+                                Fusce blandit felis eu lacus congue bibendum. Suspendisse lectus nibh, pellentesque
+                                eget dictum a, venenatis sed elit. Sed nec facilisis enim. Aenean non imperdiet lacus.
+                                Fusce consequat placerat pulvinar. Nunc sollicitudin justo ac vulputate consequat.
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="images/planet.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-four">
+            <div class="container-fluid">
+				
+            </div>
+        </div>
+        <div class="content-five">
+            <div class="container">
+                <h1>Check Atech in Action</h1>
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul>
+                            <li><a href="#">Etiam augue sem, pellentesque</a></li>
+                            <li><a href="#">Duis nec neque posuere, gravida</a></li>
+                            <li><a href="#">Cras felis nunc, tempus ut</a></li>
+                            <li><a href="#">Ut tincidunt varius pellentesque. Aenean laoreet nibh et nulla</a></li>
+                            <li><a href="#">Donec imperdiet posuere dolor, at fringilla augue </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li><a href="#">Etiam augue sem, pellentesque</a></li>
+                            <li><a href="#">Duis nec neque posuere, gravida</a></li>
+                            <li><a href="#">Cras felis nunc, tempus ut</a></li>
+                            <li><a href="#">Ut tincidunt varius pellentesque. Aenean laoreet nibh et nulla</a></li>
+                            <li><a href="#">Donec imperdiet posuere dolor, at fringilla augue </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<footer id="footerc"></footer>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--检测工具 bootstrap样式结构-->
+    <script src="js/bootlint.js"></script>
+    <script>
+        bootlint.showLintReportForCurrentDocument([]);
+    </script>
+	<script src="js/myJs/home.js"></script>
+    <script src="js/myJs/header.js"></script>
+	<script src="js/myJs/footer.js"></script>
+</body>
+</html>

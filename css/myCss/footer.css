@@ -1,0 +1,173 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,p{
+    margin:0;
+    padding:0;
+}
+a:hover{
+    text-decoration:none;
+}
+body{
+    background-color:#34495E;
+    font-family: 'Open Sans', sans-serif;
+}
+#footer{
+    background:url(../../images/line.png) repeat-x;
+}
+#footer .footer-top #footer-carousel{
+    margin:6% 0 1%;
+    color:#fff;
+    font-size:1.1em;
+    position:relative;
+}
+#footer .footer-top .carousel-indicators li{
+    background-color:#85D6DE;
+    border:0.3px solid #312D59;
+    box-shadow:0 0 5px #312D59 inset;
+    width:11px;
+    height:11px;
+    transition:all 0.3s linear;
+}
+#footer .footer-top .carousel-indicators .active {
+    background-color:#768594;
+    width:12px;
+    height:12px;
+}
+#footer .footer-top .carousel-indicators li+li{
+    margin-left:10px;
+}
+#footer .footer-top .carousel-indicators{
+    position:absolute;
+    bottom:-70%;
+}
+#footer .footer-top .carousel-inner .item .row div{
+    padding:0;
+}
+#footer>.footer-top .carousel-inner .item div:nth-child(1)>p{
+    font-size:1.2em;
+    font-weight:600;
+    padding-bottom:1.0%;
+
+}
+#footer .footer-top .carousel-inner .item a{
+    font-size:1.12em;
+    color:#85D6DE;
+    font-weight:normal;
+    transition:all ease-in 0.3s;
+}
+#footer .footer-top .carousel-inner .item a:hover{
+    color:#fff;
+}
+#footer .footer-top .footer-more{
+    color:#85D6DE;
+    font-size:1.13em;
+}
+#footer .footer-top .footer-more a{
+    color:#85D6DE;
+    font-size:1em;
+}
+#footer .footer-top .footer-more a:hover{
+    color:#fff;
+}
+#footer .footer-info{
+    color:#758594;
+    margin:4% 0;
+    padding:5% 0;
+    border-top:0.5px solid #2C3E50;
+    border-bottom:0.5px solid #2C3E50;
+}
+#footer .footer-info h3{
+    font-size:1.4em;
+    font-weight:700;
+}
+#footer .footer-info>div>div{
+    margin-bottom:3%;
+}
+#footer .footer-info>div>div:nth-child(1) img{
+    padding:8px;
+    max-width:100%;
+}
+#footer .footer-info>div>div:nth-child(1) img+div{
+    padding-left:3px;
+    font-style:italic;
+    line-height:1.6em;
+}
+#footer .footer-info>div>div:nth-child(1)>.row+.row{
+    margin-top:7%;
+}
+#footer .footer-info>div>div:nth-child(1)>.row+.row p:nth-child(2){
+    margin-top:6%;
+    color:#fff;
+    font-style:normal;
+}
+#footer .footer-info>div>div:nth-child(2) ul{
+    margin-top:7%;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li{
+    padding-left:1.7em ;
+    margin:1.1em 0;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li:nth-child(1){
+    margin:0;
+    background:url(../../images/images/img-sprite7.png) no-repeat 0 -46px;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li:nth-child(2){
+    background:url(../../images/images/img-sprite7.png) no-repeat 0 -22px;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li:nth-child(3){
+    background:url(../../images/images/img-sprite7.png) no-repeat 0 2px;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li:nth-child(3) a{
+    color:#758594;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li:nth-child(3) a:hover{
+    color:#85D6DE;
+}
+#footer .footer-info>div>div:nth-child(2) ul>li:nth-child(4){
+    background:url(../../images/images/img-sprite7.png) no-repeat 0 -69px;
+}
+#footer .footer-info>div>div:nth-child(3)>.row:nth-child(2){
+    margin-top:5%;
+}
+#footer .footer-info>div>div:nth-child(3)>.row:nth-child(2){
+    margin-top:5%;
+}
+#footer .footer-bottom{
+    text-align:center;
+    color:#768594;
+    font-size:15px;
+}
+@media screen and (max-width: 1000px) {
+    #footer{
+        font-size:0.6em;
+    }
+    #footer .footer-info h3{
+        font-size:2em;
+    }
+}
+@media screen and (max-width:922px){
+    #footer .footer-info>div>div:nth-child(1)>.row+.row{
+        margin-top:3%;
+    }
+    #footer .footer-info>div>div:nth-child(1)>.row+.row p:nth-child(2){
+        margin-top:2%;
+    }
+    #footer .footer-info>div>div:nth-child(1) img+div{
+        margin:3%;
+    }
+    #footer .footer-info>div>div:nth-child(2) ul{
+        margin-top:3%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #footer .footer-top{
+        text-align:center;
+    }
+    #footer .footer-top .carousel-inner .item img{
+        width: 80px;
+    }
+    #footer .footer-top .footer-more ul{
+        text-align:center;
+    }
+    #footer .footer-info>div>div:nth-child(1) img{
+        width:90px;
+    }
+}

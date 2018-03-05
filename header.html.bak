@@ -1,0 +1,51 @@
+<header id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <ul class="col-md-9 col-sm-12 hidden-xs list-unstyled list-inline">
+                    <li>
+                        <img src="images/images/img-sprite1.png" alt=""/>101 West Street, New York, NY 12345
+                    </li>
+                    <li>
+                        <img src="images/images/img-sprite2.png" alt=""/>&nbsp;Phone : (000) 888 88888
+                    </li>
+                    <li>
+                        <img src="images/images/img-sprite3.png" alt=""/>
+                        <a href="mailto:info@sitename.com">info@sitename.com</a>
+                    </li>
+                </ul>
+                <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-8 hidden-xs">
+                    <form action="" class="pull-right add">
+                        <input type="text" data-msear="sear"/>
+                        <input type="submit"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-coll">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#"><img src="images/logo.png" alt=""/></a>
+                </div>
+                <div class="collapse navbar-collapse" id="nav-coll">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" class="active">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PROTFOLIO</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
